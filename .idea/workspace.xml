@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2510f948-b946-4fdd-a329-2fbdd850e36f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/TKhan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control_flow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dic_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/film_rating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizzbuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while_loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_loops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/lists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/while_loops.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
               <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/for_loops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -102,12 +104,13 @@
         <option value="$PROJECT_DIR$/film_rating.py" />
         <option value="$PROJECT_DIR$/loops.py" />
         <option value="$PROJECT_DIR$/while_loops.py" />
+        <option value="$PROJECT_DIR$/for_loops.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="822" />
-    <option name="width" value="1107" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -161,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.loops">
+  <component name="RunManager" selected="Python.for_loops">
     <configuration name="control_flow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +228,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="for_loops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hello-world" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,7 +240,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/for_loops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.for_loops" />
         <item itemvalue="Python.loops" />
         <item itemvalue="Python.fizzbuzz" />
         <item itemvalue="Python.control_flow" />
         <item itemvalue="Python.dictionary" />
-        <item itemvalue="Python.lists" />
       </list>
     </recent_temporary>
   </component>
@@ -291,15 +294,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="658" y="0" width="885" height="838" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15429917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14861295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33521923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33146852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,6 +390,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/for_loops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
