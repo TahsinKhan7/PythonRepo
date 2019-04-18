@@ -16,11 +16,11 @@
 ##this prompts to excetute a givedn definied and set funciton
 #
 
-#full name example
-def full_name(f_name, middle_n, l_name):
-    return f_name + ' ' + middle_n + ' ' + l_name
-
-print(full_name('Tahsin', 'Alam', 'Khan'))
+# #full name example
+# def full_name(f_name, middle_n, l_name):
+#     return f_name + ' ' + middle_n + ' ' + l_name
+#
+# print(full_name('Tahsin', 'Alam', 'Khan'))
 
 
 # #Circle_area
