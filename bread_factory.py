@@ -1,3 +1,15 @@
+#Functions
+# takes arguments
+# works like a machine
+# outputs thing or nothing
+# should do small tasks
+# or join/group tasks using other function
+
+# TDD - test driven development
+# Bit of TDD also which invovlves putting in fixed inputs and checking/equating lot expected outputs
+# code test before/as you code 
+
+# Bread factory
 def dough(water, wheat):
     #print(f'Mixing {water} with {wheat}')
     if water == 'water' and wheat == 'wheat':
@@ -46,3 +58,6 @@ print(bread_factory('water', 'wheat'))
 print('testing factory with water and cement - expect output to be not bread')
 print(bread_factory('water', 'wheat') == 'not bread...:(')
 print(bread_factory('water', 'wheat'))
+
+
+
