@@ -55,4 +55,6 @@
 # print(hello_func('Hi'))
 # print(hello_func('Hi', name='Tahsin'))
 ##################
+# you can also add new parameters into the call function
+# print(hello_func('Hi', name='Tahsin', age=24, qual=grad))
 
