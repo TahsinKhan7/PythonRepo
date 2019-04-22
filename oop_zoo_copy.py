@@ -96,8 +96,6 @@ monkey_features.mam_features()
 # The results of the features result should still be 'Fur' and not changed to 'Scales'
 # as __feature_1 is encapsulated
 
-
-#######
 ## Polymorphism Test ##
 print(' ')
 print('Polymorphism Test:')
