@@ -2,8 +2,11 @@ class Animal:
     print('Welcome to my zoo!')
 
     #Instance Attributes
-    def __init__(self):
-        self.zoo = True
+    def __init__(self):                 # Initializer
+        self.alive = True
+        self.eyes = True
+        self.breathe = True
+        self.move = True
 
 # Inheritance Mammal
 class Mammal(Animal):
@@ -22,7 +25,7 @@ class Mammal(Animal):
         print(f'Some of their mammalian features are: {self.__feature_1}, {self.__feature_2} and {self.__feature_3}.')
 
     def mam_eat(self):
-        print(f'They eat {self.__food}.')
+        print(f'The {self.__species} eats {self.__food}.')
 
     def underwater(self):
         print(f'{self.__species}s can stay underwater, but only for a certain period of time.')
@@ -44,7 +47,7 @@ class Reptile(Animal):
         print(f'Some of their reptilian features are: {self.__feature_1}, {self.__feature_2} and {self.__feature_3}.')
 
     def rep_eat(self):
-        print(f'They eat {self.__food}.')
+        print(f'The {self.__species} eats {self.__food}.')
 
     def underwater(self):
         print(f'{self.__species}s can breathe underwater for an extended period of time.')
@@ -67,13 +70,13 @@ class Fish(Animal):
         print(f'Some of their main features are: {self.__feature_1}, {self.__feature_2} and {self.__feature_3}.')
 
     def fish_eat(self):
-        print(f'They eat {self.__food}')
+        print(f'The {self.__species} eats {self.__food}')
 
     def underwater(self):
         print(f'{self.__species}s can breathe underwater indefinitely due to their gills.')
 
 
-#######
+########
 # Mammal instantiating
 print('Mammal at my zoo:')
 mammal_meth = Mammal()
@@ -97,7 +100,7 @@ monkey_features.mam_features()
 # as __feature_1 is encapsulated
 
 
-#######
+########
 ## Polymorphism Test ##
 print(' ')
 print('Polymorphism Test:')

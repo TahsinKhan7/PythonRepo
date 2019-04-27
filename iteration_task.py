@@ -1,21 +1,20 @@
-# # Iteration Task
-# print('List of movies:')
-# movie_list = ['Avengers', 'Matrix', 'Iron Man', 'Dark Knight', 'Spiderman']
-# counter = 0
-#
-# for movie_id in movie_list:
-#     print(counter+1, '-', movie_id)
-#     counter += 1
-#
-# print(' ')
-# print('List of places:')
-# places_list = ['UK', 'Spain', 'France', 'Germany', 'Russia']
-#
-# counter = 0
-#
-# for places_id in places_list:
-#     print(counter+1, '-', places_id)
-#     counter += 1
+# Iteration Task
+print('List of movies:')
+movie_list = ['Avengers', 'Matrix', 'Iron Man', 'Dark Knight', 'Spiderman']
+counter = 0
+
+for movie_id in movie_list:
+    print(counter+1, '-', movie_id)
+    counter += 1
+
+print(' ')
+print('List of places:')
+places_list = ['UK', 'Spain', 'France', 'Germany', 'Russia']
+
+counter = 0
+for places_id in places_list:
+    print(counter+1, '-', places_id)
+    counter += 1
 
 #########################################
 #Dictionary of movies and places
